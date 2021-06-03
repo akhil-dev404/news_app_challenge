@@ -1,6 +1,6 @@
 # news_app
 
-A new Flutter project.
+Complete UI upto Newsfeed
 
 ## Getting Started
 
