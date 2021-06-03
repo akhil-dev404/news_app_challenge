@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      initialRoute: '/home',
+      initialRoute: '/onboard',
       getPages: routes,
     );
   }
