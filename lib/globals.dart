@@ -38,9 +38,4 @@ InputDecoration inputdecoration(String str, IconData icon) {
       ));
 }
 
-List<Color> listcolor = [
-  Color(0xffE9E7FC),
-  Color(0xffFFE8E8),
-  Color(0xffD6FCF7),
-  Color(0xffffffff)
-];
+
