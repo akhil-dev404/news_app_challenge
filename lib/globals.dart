@@ -1,15 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
-
-    TextStyle textstyle2(double fz, FontWeight fw, Color color) =>
-    GoogleFonts.montserrat(
-      fontSize: fz,
-      fontWeight: fw,
-      color: color,
-    );
-     TextStyle textstyle3(double fz, FontWeight fw, Color color) =>
+TextStyle textstyle(double fz, FontWeight fw, Color color) =>
     GoogleFonts.montserrat(
       fontSize: fz,
       fontWeight: fw,
@@ -38,4 +30,9 @@ InputDecoration inputdecoration(String str, IconData icon) {
       ));
 }
 
-
+List<Color> listcolor = [
+  Color(0xffE9E7FC),
+  Color(0xffFFE8E8),
+  Color(0xffD6FCF7),
+  Color(0xffffffff)
+];

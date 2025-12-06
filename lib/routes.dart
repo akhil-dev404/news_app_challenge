@@ -18,4 +18,6 @@ var routes = [
   GetPage(name: '/login', page: () => Login()),
   GetPage(name: '/register', page: () => Register()),
   GetPage(name: '/home', page: () => Homepage()),
+  GetPage(name: '/newspage', page: () => Newspage()),
+  GetPage(name: '/likes', page: () => Likes()),
 ];
