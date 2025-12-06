@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-TextStyle textstyle(double fz, FontWeight fw, Color color) =>
+
+
+    TextStyle textstyle2(double fz, FontWeight fw, Color color) =>
+    GoogleFonts.montserrat(
+      fontSize: fz,
+      fontWeight: fw,
+      color: color,
+    );
+     TextStyle textstyle3(double fz, FontWeight fw, Color color) =>
     GoogleFonts.montserrat(
       fontSize: fz,
       fontWeight: fw,
